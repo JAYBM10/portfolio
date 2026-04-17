@@ -3,7 +3,7 @@
 This is my personal portfolio website showcasing my skills, projects, and contact information.
 
 ## 🚀 Live Website
-https://yourusername.github.io/portfolio/
+https://jaybm10.github.io/portfolio/
 
 ## 💻 Technologies Used
 - HTML
