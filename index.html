@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+  <link rel="stylesheet" href="styles.css">
+
+  <title>Jason Mwananga Portfolio</title>
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav>
+    <div class="left">
+      <a href="/">Jason Mwananga</a>
+    </div>
+
+    <div class="right">
+      <a href="https://github.com" target="_blank">
+        <i class="fa-brands fa-github"></i>
+        <span>Github</span>
+      </a>
+
+      <a href="https://linkedin.com" target="_blank">
+        <i class="fa-brands fa-linkedin"></i>
+        <span>LinkedIn</span>
+      </a>
+
+      <a href="mailto:jasonmwananga@gmail.com">
+        <i class="fa-solid fa-envelope"></i>
+        <span>Email</span>
+      </a>
+    </div>
+  </nav>
+
+  <main>
+
+    <!-- SECTION 1: HERO -->
+    <section class="hero-section">
+      <div class="text">
+        <h2>Hi, I'm Jason 👋</h2>
+
+        <p>
+          I am a dedicated Computer Science student with strong skills in C++, Java, and web development. 
+          I enjoy building practical systems, solving real-world problems, and learning new technologies. 
+          Passionate about software development, databases, and system design, I aim to create efficient, 
+          user-friendly solutions while continuously improving my technical and problem-solving abilities.
+        </p>
+
+        <div class="links">
+          <a href="#skills">
+            <i class="fa-solid fa-code"></i>
+            <span>Skills</span>
+          </a>
+
+          <a href="#testimony">
+            <i class="fa-solid fa-pen"></i>
+            <span>Testimony</span>
+          </a>
+
+          <a href="#contact">
+            <i class="fa-solid fa-envelope"></i>
+            <span>Contact</span>
+          </a>
+        </div>
+      </div>
+
+      <div class="headshot">
+        <img src="images/hero-headshot.webp.webp" alt="Jason headshot">
+      </div>
+    </section>
+
+    <!-- SECTION 2: SKILLS -->
+    <section id="skills" class="skills-section">
+      <h2>Skills</h2>
+
+      <div class="text">
+        I possess a solid foundation in programming with C, C++, and Java, along with practical experience in web development using HTML and CSS. 
+        I am skilled in database management with SQL and understand software development principles, including the Software Development Life Cycle (SDLC). 
+        I have experience building functional systems, problem-solving, and designing efficient, user-focused solutions.
+      </div>
+
+      <div class="cells">
+        <div class="cell">
+          <img src="images/html-logo.webp">
+          <span>HTML</span>
+        </div>
+
+        <div class="cell">
+          <img src="images/css-logo.webp">
+          <span>CSS</span>
+        </div>
+
+        <div class="cell">
+          <img src="images/javascript-logo.webp">
+          <span>JavaScript</span>
+        </div>
+
+        <div class="cell">
+          <img src="images/java-logo.webp" alt="Java Logo">
+          <span>Java</span>
+        </div>
+
+        <div class="cell">
+          <img src="images/cpp-logo.webp">
+          <span>C++</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 3: TESTIMONY -->
+    <section id="testimony" class="testimony-section">
+      <h2>Testimony</h2>
+
+      <div class="group">
+        <div class="person-details">
+          <img src="images/testimony.webp.webp">
+          <p>Jason Mwananga</p>
+          <p>Computer Science Student</p>
+        </div>
+
+        <div class="text">
+          "A highly motivated and dedicated individual with a strong passion for technology and innovation. 
+          Demonstrates excellent problem-solving skills and a commitment to continuous learning and improvement 
+          in software development and system design."
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 4: CONTACT -->
+    <section id="contact" class="contact-section">
+      <h2>Contact</h2>
+
+      <div class="group">
+        <div class="text">
+          Feel free to reach out for collaboration, internship opportunities, or any project discussions. 
+          I'm always open to learning, networking, and contributing to meaningful work.
+        </div>
+
+<form action="https://formspree.io/f/xnjlpyzn" method="POST">
+
+  <div class="row">
+    <div>
+      <label>Name</label>
+      <input type="text" name="name" required>
+    </div>
+
+    <div>
+      <label>Email</label>
+      <input type="email" name="email" required>
+    </div>
+  </div>
+
+  <label>Message</label>
+  <textarea name="message" required></textarea>
+
+  <button type="submit">Send Message</button>
+</form>
+      </div>
+    </section>
+
+  </main>
+
+</body>
+</html>
